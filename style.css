@@ -23,4 +23,5 @@ body {
     text-align: center;
     margin: 5px;
     line-height: 50px;
+    border: 1px solid black;
 }
