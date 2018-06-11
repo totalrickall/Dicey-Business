@@ -18,16 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
 class Die {
     constructor() {
-        this.el = document.createElement('div');
-        this.el.className = 'die';
-        this.el.id = id;
-        id++;
         this.roll();
         this.sumDice();
         //this.reRoll();
@@ -40,6 +32,10 @@ class Die {
 
     }
     roll() {
+        this.el = document.createElement('div');
+        this.el.className = 'die';
+        this.el.id = id;
+        id++;
         let random = Math.floor(Math.random() * (7 - 1) + 1);
         //console.log(random)
         this.el.innerText = random;
