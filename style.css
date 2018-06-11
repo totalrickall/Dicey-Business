@@ -1,27 +1,12 @@
-body {
-    background-color: lightslategray;
-}
-#die-generator {
-    margin-top: 10px;
-}
-.navbar {
-    border: 2px solid black;
-}
-.d-inline-block {
-    height: 75px;
-    width: 75px;
-    border: 2px solid black;
-}
-.navbar-brand {
-    font-family: fantasy;
-    font-size: 50px;
-}
-.heyo {
-    height: 50px;
-    width: 50px;
-    background: white;
+.die {
+    height: 100px;
+    width: 100px;
+    background: pink;
+    float: left;
+    margin: 2px;
     text-align: center;
-    margin: 5px;
-    line-height: 50px;
-    border: 1px solid black;
+    font-size: 4em;
+};
+#sum-container {
+    display: block;
 }
